@@ -1,3 +1,6 @@
 Name," Desc"," Cooldown"," Energy"," Hunger"," Thirst"," Entertainment"," Money"
-Sleep,"Jeremy is sleeping","90","40","-2","-1","-1","0"
-Eat,"Jeremy is eating","20","20","30","-3","20","-2"
+Sleep,"Jeremy is sleeping","50","40","-2","-1","-1","0"
+Eat,"Jeremy is eating","20","20","30","-3","20","-5"
+Dancing,"Jeremy is dancing ","30","-5","-5","-10","50","-10"
+Drinking,"Jeremy is drinking","10","10","2","40","10","-1"
+Working,"Jeremy is working","20","-10","-2","-5","-10","25"

@@ -1,7 +1,7 @@
 
 import csv
 import math
-
+import random as Random 
 def get_utility_score(gamestate, action):
     u = 0
     action_stats_ = action[3:]
@@ -39,7 +39,7 @@ def load_actions():
     return actions
 
 
-gamestate = ["Gamestate", "This is gameState", 2550,15,50,50,100,50]
+gamestate = ["Gamestate", "This is gameState", 2550, Random.randrange(100,250),Random.randrange(25,50),Random.randrange(25,50),Random.randrange(50,100),Random.randrange(25,50)]
 actions = load_actions()
 
 #SimulationLoop
