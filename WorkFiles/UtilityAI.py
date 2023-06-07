@@ -39,7 +39,7 @@ def load_actions():
     return actions
 
 
-gamestate = ["Gamestate", "This is gameState", 999,5,5,5,5,5]
+gamestate = ["Gamestate", "This is gameState", 2550,15,50,50,100,50]
 actions = load_actions()
 
 #SimulationLoop
